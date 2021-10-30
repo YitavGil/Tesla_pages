@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Gotham-medium';
+    src: url(/assets/fonts/Gotham-Medium.woff) format('woff');
+}
+
+.pg3 {
+    width: 100%;
+    height: 100%;
+    font-family: 'Gotham', sans-serif;
+    text-align: center;
+    font-size: small;
+}
+
+
+
+
+
+.top3 {
+    height: 900px;
+    background: url(/assets/images/lhd-performance-hero-desktop\ \(1\).png);
+    background-size: 100%;
+    background-position: center top -100px;
+    background-repeat: no-repeat;
+    position: relative;
+    max-height: 850px;
+    color: white;
+}
+
+
+.icn3 {
+    position: absolute;
+    left: 130px;
+    bottom: 275px;
+}
+
+.label3 {
+    color: #fff;
+    position: relative;
+    left: 720px;
+    bottom: 220px;
+    
+    
+    
+}
+
+
+    .label3 h2 {
+    position: absolute;
+    font-size: xx-large;
+    top: 930px;
+    right: 1890px;
+    width: 90px;
+    
+}
+
+    .quick {
+        position: absolute;
+        text-align: center;
+        left: 490px;
+        top: 760px;
+        font-size: small;
+        
+    }
+
+    .label3_2 {
+        position: absolute;
+        left: 170px;
+        top: 930px;
+        font-size: xx-large;
+        
+        
+        
+    }
+
+    .label3_3 {
+        position: absolute;
+        left: 500px;
+        top: 930px;
+        font-size: xx-large;
+        
+        
+    }
+
+    .quick2 {
+        position: absolute;
+        text-align: center;
+        left: 810px;
+        top: 760px;
+        font-size: small;
+
+    }
+    
+    .quick3 {
+        position: absolute;
+        text-align: center;
+        left: 1120px;
+        top: 760px;
+        font-size: small;
+    }
+
+    .performance  {
+        color: black;
+        position: absolute;
+        text-align: left;
+        width: 350px;
+        height: 150px;
+        top: 900px;
+        left: 480px;
+    }
+    .performance h2 {
+        font-family: 'Gotham Light', sans-serif;
+        font-size: medium;
+        color: #181b21;
+    }
+    
+    .performance h1 {
+        font-family: 'Gotham-medium';
+        color: #181b21;
+        
+    }
+
+
+    .btn5 {
+    
+        background-color: transparent;
+        border: 3px black solid;
+        text-align: center;
+        padding: 10px 25px;
+        border-radius: 50px;
+        color: black;
+        font-size: 12px;
+        position: absolute;
+        font-family: Gothem;
+        left: 630px;
+        top: 965px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        
+    }
+
+    .pg3 .btn5:hover {
+        background-color: black; 
+        color: white;
+        cursor: default;
+
+    }
+    .btn6 {
+    
+        background-color: transparent;
+        border: 3px black solid;
+        padding: 5px 10px;
+        border-radius: 50%;
+        color: black;
+        font-size: 12px;
+        position: absolute;
+        font-family: 'Gotham', sans-serif;
+        font-size: x-large;
+        left: 485px;
+        top: 964px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        
+    }
+
+    .pg3 .btn6:hover {
+        background-color: black; 
+        color: white;
+        cursor: default;
+    }
+
+    .btn7 {
+    
+        background-color: transparent;
+        position: absolute;
+        font-family: 'Gotham', sans-serif;
+        left: 530px;
+        top: 977px;
+        border: none;
+        
+    }
+
+    .bottom_text {
+        position: absolute;
+        text-align: left;
+        color: #393c41;
+        font-family: 'Gotham', sans-serif;
+        font-size: medium;
+        width: 700px;
+        height: 100px;
+        margin-left: 800px;
+        margin-top: 900px;
+    }

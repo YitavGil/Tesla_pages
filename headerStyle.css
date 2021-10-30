@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Gothem";
+    src: url("../fonts/GothamBold.otf");
+    }
+
+.head1{
+    font-family: 'Gotham', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+  
+    
+}
+
+.navbar {
+    margin-left: 480px;
+    padding-top: 20px;
+    line-height: 1.6;
+    
+    
+}
+.navbar ul {
+    margin-left:160px;
+    
+}
+
+.navbar ul li {
+    display: block;
+    float: left;
+    margin: 1px 3px;
+    padding: 5px 16px;
+    border-radius: 10px;
+    transition: background 0.5s;
+    background: rgba(150,150,150,0.0);
+
+}
+
+.navbar ul li:hover {
+    background: rgba(150,150,150,0.5);
+
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: white;
+    
+}
+.actions ul a {
+    color: white;
+    text-decoration: none;
+    
+}
+.actions {
+    margin: 1px 40px;
+    float: right;
+    
+    
+}
+.actions ul li {
+    display: block;
+    float: right;
+    margin: 3px;
+    padding: 5px;
+    transition: background 0.5s;
+    
+    
+    
+}
+.actions ul li:hover {
+    background: rgba(150,150,150,0.5);
+    border-radius: 10px;
+
+}
+
+.sidebar {
+    margin-left: 180px;
+    padding-top: 10px;
+    line-height: 1.6;
+    
+    
+    
+}
+
+.sidebar ul {
+    margin: 20px 20px;
+    position: absolute;
+    left: 10px;
+    top: 400px;
+    
+    
+    
+}
+.sidebar ul li {
+    display: block;
+    margin: 1px 3px;
+    padding: 1px 6px;
+    border-radius: 10px;
+    transition: background 0.5s;
+    background: rgba(150,150,150,0.0);
+
+   
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: rgba(150,150,150,0.5);
+    
+}
+
+
+.sidebar ul li:hover {
+    background: rgba(150,150,150,0.5);
+    border-radius: 10px;
+    color: white;
+    display: inline;
+    
+
+}

@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@font-face {
+    font-family: "Gothem";
+    src: url("../fonts/GothamBold.otf");
+    }
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%; 
+    font-family: Gothem;
+    
+}
+
+.logo {
+    margin-left:100px ;
+    float: left;
+}
+
+.logo svg {
+    width: 120px;
+    height: 70px;
+    
+}
+
+
+.pg1 {
+    width: 100%;
+    height: 100%;
+    background: url(/assets/images/M3-Hero-LHD-US-D.jpg);
+    background-size: 100%;
+    background-position: center top -50px;
+
+}
+
+.pg1 h1{
+    text-align: center;
+    color: white;
+    padding: 130px 30px;
+}
+
+
+.icn1 {
+
+    position: relative;
+    display: inline-block;
+    left: 200px;
+    top: 40px;
+    
+}
+.icn1 svg {
+    position: absolute;
+    
+    
+}
+
+.tcl-speedometer__outer-circle{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 118px;
+    
+    
+
+}
+
+.tcl-speedometer__inner-circle{
+    width: 45px;
+    height: 45px;
+    top: 130px;
+    left: 460px;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.tcl-speedometer__needle{
+    width: 30px;
+    height: 30px;
+    transform: rotate(90deg);    
+    top: 150px;
+    left: 480px;
+    position: absolute;
+}
+
+
+.section{
+    
+    height: 250px;
+    position: relative;
+    width: 100%;
+    top: 370px;
+    padding: 1px;
+
+    
+
+}
+
+.section .icn1, .section  h2{
+    display: inline-block;
+}
+
+.bottom1{
+    width: 100%;
+    height: 900px;
+    
+    
+}
+
+.icn1 { 
+    
+    width: 100%;
+}
+
+.label {
+    color: #fff;
+    position: absolute;
+    font-size:xx-large;
+    left: 720px;
+    bottom: 20px;
+}
+
+.spd {
+    color: #fff;
+    position: absolute;
+    top: 225px;
+    left: 657px;
+    font-size:x-small;
+}
+
+.label-2{
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    left: 650px;
+    top: 135px;
+
+}
+.label-3{
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    left: 850px;
+    top: 135px;
+
+}
+
+.btn1 {
+    
+        background-color: transparent;
+        border: 3px white solid;
+        padding: 10px 25px;
+        border-radius: 50px;
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        font-family: Gothem;
+        left: 1000px;
+        top: 140px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        
+}
+
+  
+  .pg1 .btn1:hover {
+    background-color: white; 
+    color: black;
+    cursor: default;
+  }
+ section {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    background-position: center top -50px;
+    position: relative;
+}
+
+
+
